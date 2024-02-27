@@ -1,6 +1,6 @@
 import Header  from './components/header/header'
 import Footer  from './components/footer/footer'
-import Start  from './page/start/strat'
+import Start  from './page/start/start'
 import CatalogPage from './page/catalog/catalog'
 import TovarPage from './page/TovarPage/TovarPage'
 import UsersPage from './page/users/users'
