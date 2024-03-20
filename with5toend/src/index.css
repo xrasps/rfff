@@ -1,0 +1,250 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+header{
+  background-color: black;
+  padding: 50px 0px;
+  width: 100%;
+}
+body{
+  background-color: gray;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1300px;
+}
+.header_nav{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header_nav a{
+ color: white;
+ font-size: 16px;
+}
+.h-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.h-content{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.h-icons{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.banner{
+  padding: 50px;
+  background-image: url("/public/Banner/banner.png");
+  background-repeat: no-repeat;
+  height: 709px;
+}
+.banner-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+}
+.banner-content img{
+  width: 50%;
+}
+.banner-content h1{
+  color: white;
+  font-size: 32px;
+}
+.banner-btn{
+  padding: 25px 75px;
+  background-color: #735184;
+  color: white;
+  border-radius: 20px;
+}
+.startCatalog{
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.9);
+}
+.sContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-items: center;
+}
+.tow{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+  font-size: 18px;
+  background-color: black;
+  padding: 10px;
+}
+.tow h2{
+  padding: 15px;
+}
+.tow img{
+  width: 40%;
+}
+.towtow{
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nad{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.nad a{
+  color: white;
+}
+.price{
+  font-size: 24px;
+}
+.cContainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 15px;
+}
+.catalog_title{
+  padding: 20px;
+  text-align: center;
+  font-size: 54px;
+  color: white;
+}
+.information{
+  padding: 50px 0px;
+  color: white;
+}
+.product{
+  padding: 50px;
+  background-color: grey;
+  color: white;
+  font-size: 24px;
+}
+.p-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 200px;
+}
+.p-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.search{
+  border: white 2px solid;
+  background: none;
+  padding: 10px 30px;
+  margin: 10px 10px;
+  border-radius: 20px;
+  color: white;
+}
+.er{
+  color: white;
+}
+.users{
+  padding: 50px 0px;
+  color: white;
+}
+.users ul{
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.users li{
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.users h1{
+  margin: 20px 0px;
+  font-size: 32px;
+}
+.add{
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.add input{
+  border: 2px solid black;
+  color: black;
+  width: 200%;
+  background: none;
+  text-align: center;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+.add textarea{
+  border: 2px solid black;
+  color: white;
+  background: none;
+  text-align: center;
+  width: 200%;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+.add button{
+  border: 2px solid white;
+  color: white;
+  background: black;
+  outline: none;
+  width: 200%;
+  padding: 10px 30px;
+}
+.add label{
+  color: black;
+  font-size: 18px;
+}
+.addForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.addForm p{
+  color: black;
+}
+.sliderImg{
+  width: 100%;
+}
+.modalBtn{
+  border: 2px solid white;
+  color: white;
+  background: black;
+  outline: none;
+  width: 25%;
+  padding: 10px 30px;
+}
+.modal-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.basket_title{
+  color: white;
+}
+.basket_subtitle{
+  color: white;
+}

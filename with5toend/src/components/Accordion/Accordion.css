@@ -1,0 +1,17 @@
+.acc{
+    padding: 25px;
+}
+.accordion_item{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+.accordion_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px
+}
+.accordion_content{
+    padding: 10px;
+}
